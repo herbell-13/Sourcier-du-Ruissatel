@@ -26,8 +26,36 @@
   <p>Vous pouvez me joindre pour un diagnostic personnalisé ou une intervention sur site.</p>
   <p>Vous recherchez un <strong>sourcier à Marseille</strong> ou dans la région Provence-Alpes-Côte d’Azur ? Je suis à votre écoute pour toute demande de <strong>détection d’eau souterraine</strong>, <strong>infiltration</strong> ou <strong>repérage de source avant forage</strong>.</p>
 
-<<<form action="traitement.php" method="POST">
-
+<<form action="mailto:herve13011@gmail.com" method="POST" enctype="text/plain">
+  <div class="form-container">
+    <p>
+      <label for="nom">Nom</label>
+      <input type="text" id="nom" name="nom" required>
+    </p>
+    <p>
+      <label for="prenom">Prénom</label>
+      <input type="text" id="prenom" name="prenom" required>
+    </p>
+    <p>
+      <label for="telephone">Téléphone</label>
+      <input type="tel" id="telephone" name="telephone" required>
+    </p>
+    <p>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+    </p>
+    <p>
+      <label for="adresse">Adresse</label>
+      <input type="text" id="adresse" name="adresse" required>
+    </p>
+    <p>
+      <label for="prestation">Type de prestation demandée</label>
+      <textarea id="prestation" name="prestation" rows="4" required></textarea>
+    </p>
+    <p>
+      <button type="submit">Envoyer la demande</button>
+    </p>
+  </div>
 </form>
     </section>
   </main>
