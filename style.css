@@ -1,0 +1,115 @@
+body {
+  font-family: 'Lora', serif;
+  margin: 0;
+  background-color: #EFE8D8;
+  color: #2E2E2E;
+  font-size: 1.2rem;
+}
+
+header {
+  background-color: #A0DDE6;
+  padding: 1rem 0.5rem;
+  text-align: center;
+  position: sticky; /* modifié depuis 'relative' */
+  top: 0;            /* positionne en haut de la page */
+  z-index: 1000;     /* s’assure qu’il passe devant le contenu */
+}
+
+header h1 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem; /* réduit depuis 3rem */
+  margin: 0;
+  color: #2E2E2E;
+}
+header p {
+  font-size: 1rem; /* réduit depuis 1.32rem */
+  margin-top: 0.3rem;
+  color: #2E2E2E;
+}
+/*header img {
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  margin: auto;
+  display: block;
+}
+
+ */
+
+header img {
+  width:90%;
+  height: 250px; /* ou la hauteur que tu veux */
+  object-fit: cover;
+  object-position: center center; /* centre horizontalement et verticalement */
+  border-radius: 10px;
+  display: block;
+}
+
+nav {
+  margin-top: 0.5rem; /* réduit depuis 1rem */
+}
+nav a {
+  margin: 0 0.5rem;
+  font-size: 1rem; /* réduit depuis 1.2rem */
+}
+}
+nav a:hover {
+  color: #C5B358;
+}
+main {
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+section {
+  margin-bottom: 2rem;
+}
+h2 {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 2rem;
+  color: #4E6653;
+}
+main p {
+  text-align: justify;
+}
+button {
+  background-color: #A3B18A;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #C5B358;
+}
+footer {
+  background-color: #D9D9D9;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+.section-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: 'Lora', serif;
+}
+form label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: bold;
+}
+</style>
+  
