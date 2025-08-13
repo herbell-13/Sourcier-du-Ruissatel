@@ -37,7 +37,7 @@ header p {
 
 
 header img {
-  width:80%;
+  width:90%;
   height: 250px; /* ou la hauteur que tu veux */
   object-fit: cover;
   object-position: center center; /* centre horizontalement et verticalement */
