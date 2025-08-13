@@ -36,14 +36,14 @@ header img {
 }
 
 
-header img {
+/*header img {
   width:80%;
   height: 250px; /* ou la hauteur que tu veux */
   object-fit: cover;
   object-position: center center; /* centre horizontalement et verticalement */
   border-radius: 10px;
   display: block;
-}
+}*/
 
 nav {
   margin-top: 0.5rem; /* réduit depuis 1rem */
