@@ -10,8 +10,8 @@ header {
   background-color: #A0DDE6;
   padding: 1rem 0.5rem;
   text-align: center;
-  /*position: sticky; /* modifié depuis 'relative' */
-  /*top: 0;            /* positionne en haut de la page */
+ /*position: sticky; /* modifié depuis 'relative' */
+ /*top: 0;            /* positionne en haut de la page */
  /* z-index: 1000;     /* s’assure qu’il passe devant le contenu */
 }
 
@@ -26,7 +26,7 @@ header p {
   margin-top: 0.3rem;
   color: #2E2E2E;
 }
-/*header img {
+header img {
   max-height: 150px;
   width: auto;
   height: auto;
@@ -35,7 +35,6 @@ header p {
   display: block;
 }
 
- */
 
 header img {
   width:90%;
