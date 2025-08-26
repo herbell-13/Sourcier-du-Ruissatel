@@ -32,21 +32,10 @@
       <section id="contact">
         <h2>Contactez-moi</h2>
         <p>Vous pouvez me joindre pour un diagnostic personnalisé ou une intervention sur site.</p>
-        <form action="mailto:votre-adresse@mail.com" method="POST" enctype="text/plain">
-          <label for="nom">Nom</label>
-          <input type="text" id="nom" name="nom" required />
-          <label for="prenom">Prénom</label>
-          <input type="text" id="prenom" name="prenom" required />
-          <label for="telephone">Téléphone</label>
-          <input type="tel" id="telephone" name="telephone" required />
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required />
-          <label for="adresse">Adresse</label>
-          <input type="text" id="adresse" name="adresse" required />
-          <label for="prestation">Type de prestation demandée</label>
-          <textarea id="prestation" name="prestation" rows="4" required></textarea>
-          <button type="submit">Envoyer la demande</button>
-        </form>
+        <div
+          id="formkeep-embed"
+          data-formkeep-url="https://formkeep.com/p/d1c550966e2d4567b594f48e896209fd?embedded=1"
+        ></div>
       </section>
     </main>
     <footer>
@@ -61,5 +50,8 @@
       </div>
       <p>&copy; 2025 Le Sourcier du Ruissatel - Tous droits réservés.</p>
     </footer>
+
+    <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.formkeep.com/formkeep-embed.js"></script>
   </body>
 </html>
