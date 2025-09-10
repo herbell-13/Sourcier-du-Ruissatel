@@ -155,3 +155,14 @@ form label {
   margin-bottom: 0.3rem;
   font-weight: bold;
 }
+/* Rotation de l'image recherche1.jpg */
+.section-image[src="images/recherche1.jpg"] {
+  transform: rotate(90deg);
+  display: block;
+  margin: 20px auto; /* pour centrer l’image après rotation */
+  max-width: 100%; /* pour garder l’image responsive */
+}
+.icon-email {
+  font-size: 1.8em;
+  vertical-align: middle;
+}
