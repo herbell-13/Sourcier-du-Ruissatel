@@ -162,6 +162,13 @@ form label {
   margin: 20px auto; /* pour centrer l’image après rotation */
   max-width: 100%; /* pour garder l’image responsive */
 }
+/* Rotation de l'image site2.jpg */
+.section-image[src="images/site2.jpg""] {
+  transform: rotate(90deg);
+  display: block;
+  margin: 20px auto; /* pour centrer l’image après rotation */
+  max-width: 100%; /* pour garder l’image responsive */
+}
 .icon-email {
   font-size: 1.8em;
   vertical-align: middle;
